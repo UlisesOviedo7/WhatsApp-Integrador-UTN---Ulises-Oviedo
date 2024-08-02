@@ -1,0 +1,36 @@
+
+
+   .home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #e5ddd5; /* Color de fondo similar al de WhatsApp */
+  }
+  
+  .home-header {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #25d366; /* Color similar al de WhatsApp */
+    color: white;
+    text-align: center;
+  }
+  
+  .home-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para la lista de contactos */
+  .contact-list-container {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .home-header h2 {
+      font-size: 16px;
+    }
+  }
+  
